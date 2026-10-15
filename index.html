@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PigeonGreg</title>
+</head>
+<body>
+
+<header>
+    <div class="wrap header-inner">
+        <span class="prompt">pigeon@greg:~$</span>
+        <nav>
+            <a href="#about">whoami</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">links</a>
+        </nav>
+    </div>
+</header>
+
+<main class="wrap">
+
+    <section class="hero">
+        <div class="hero-top">
+            <img id="pfp" src="images/greg.png" alt="greg">
+            <pre class="ASCII-green">
+     _______   __                                           ______
+    |       \ |  \                                         /      \
+    | $$$$$$$\ \$$  ______    ______    ______   _______  |  $$$$$$\  ______    ______    ______
+    | $$__/ $$|  \ /      \  /      \  /      \ |       \ | $$ __\$$ /      \  /      \  /      \
+    | $$    $$| $$|  $$$$$$\|  $$$$$$\|  $$$$$$\| $$$$$$$\| $$|    \|  $$$$$$\|  $$$$$$\|  $$$$$$\
+    | $$$$$$$ | $$| $$  | $$| $$    $$| $$  | $$| $$  | $$| $$ \$$$$| $$   \$$| $$    $$| $$  | $$
+    | $$      | $$| $$__| $$| $$$$$$$$| $$__/ $$| $$  | $$| $$__| $$| $$      | $$$$$$$$| $$__| $$
+    | $$      | $$ \$$    $$ \$$     \ \$$    $$| $$  | $$ \$$    $$| $$       \$$     \ \$$    $$
+     \$$       \$$ _\$$$$$$$  \$$$$$$$  \$$$$$$  \$$   \$$  \$$$$$$  \$$        \$$$$$$$ _\$$$$$$$
+                  |  \__| $$                                                            |  \__| $$
+                   \$$    $$                                                             \$$    $$
+                    \$$$$$$                                                               \$$$$$$
+    </pre>
+        </div>
+
+        <dl class="status">
+            <dt>SYSTEM</dt><dd><span class="ok">[OK]</span> Portfolio v0.1 loaded</dd>
+            <dt>ROLE</dt><dd><span class="ok">[OK]</span> IT Beginner</dd>
+            <dt>LOCATION</dt><dd><span class="ok">[OK]</span> Egypt</dd>
+            <dt>SPECIALTY</dt><dd><span class="ok">[OK]</span> Student, hoefully sys admin in the future</dd>
+        </dl>
+
+        <p class="scroll-hint">System ready. Scroll to explore.</p>
+    </section>
+
+    <section id="about">
+        <div class="term">
+            <div class="term-bar">
+                <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                <span class="term-title">pigeon@greg: ~/about</span>
+            </div>
+            <div class="term-body">
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/about</span>$ <span class="c">whoami</span></p>
+                <p class="out">PigeonGreg</p>
+                <p class="out">Beginner in IT sphere</p>
+                <p class="out comment">// Trying to learn more</p>
+                <p class="out comment">// And trying to make more projects</p>
+
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/about</span>$ <span class="c">cat ./skills.txt</span></p>
+                <p class="out">→ Python</p>
+                <p class="out">→ HTML</p>
+                <p class="out">→ CSS</p>
+                <p class="out">→ Bash</p>
+                <p class="out">→ Git</p>
+
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/about</span>$ <span class="c">cat ./background.txt</span></p>
+                <p class="out">A guy from Belarus with high ambitions. Learning English for already 10 years and currently lives abroad in Egypt.</p>
+                <p class="out">Currently studying in a college to become a system administrator</p>
+                <p class="out comment">// I'm not really good student to be honest LOL</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="personal">
+        <div class="term">
+            <div class="term-bar">
+                <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                <span class="term-title">pigeon@greg: ~/personal</span>
+            </div>
+            <div class="term-body">
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/personal</span>$ <span class="c">cat ./basics.txt</span></p>
+                <ul class="kv">
+                    <li><span class="k">BIRTHDAY</span><span class="v">1 July</span></li>
+                    <li><span class="k">FROM</span><span class="v">Belarus</span></li>
+                    <li><span class="k">LIVES IN</span><span class="v">Egypt</span></li>
+                    <li><span class="k">LANGUAGES</span><span class="v">Russian, English</span></li>
+                </ul>
+
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/personal</span>$ <span class="c">cat ./favourites.txt</span></p>
+                <ul class="kv">
+                    <li><span class="k">MUSIC</span><span class="v">Queen, Radiohead, Eminem</span></li>
+                    <li><span class="k">NOW PLAYING</span><span class="v">Queen - Don't Stop Me Now</span></li>
+                    <li><span class="k">MOVIE</span><span class="v">Bohemian Rhapsody(2018) and really waiting for Avengers: Doomsday(2026)</span></li>
+                    <li><span class="k">GAME</span><span class="v">Team Fortress 2, DoTA 2, Minecraft</span></li>
+                    <li><span class="k">DRINK</span><span class="v">Pepsi zero sugar</span></li>
+                </ul>
+
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/personal</span>$ <span class="c">cat ./fun_facts.txt</span></p>
+                <p class="out">My name is not actually Greg and not even connected to it</p>
+                <p class="out comment">// I might change dat a bit later</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="term">
+            <div class="term-bar">
+                <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                <span class="term-title">pigeon@greg: ~/projects</span>
+            </div>
+            <div class="term-body">
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/projects</span>$ <span class="c">ls -la</span></p>
+                <p class="out">.</p>
+                <p class="out">total 1 featured project</p>
+
+                <ul class="ls">
+                    <li><span class="t-dir">dev</span><span class="t-time">2026</span><a href="#project">EzArch/</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <article class="proj">
+            <div class="proj-head">
+                <span class="cmd"><span class="dollar">$</span> cat ./EzArch/README.md</span>
+                <span class="t-time">2026</span>
+            </div>
+            <img class="shot" src="images/EzArch.png" alt="EzArch screenshot">
+            <div class="proj-body">
+                <h3>EzArch Linux</h3>
+                <p>EzArch is a pretty lightweight, Arch-Based Linux distro. You can learn more about it on it's GitHub page!</p>
+                <ul class="tags">
+                    <li><span class="k">Role</span> Dev</li>
+                    <li><span class="k">Year</span> 2026</li>
+                    <li><span class="k">Stack</span> QML, Shell, JS</li>
+                </ul>
+                <a class="btn" href="https://github.com/PigeonGreg/EzArch" target="_blank">→ ./open --url</a>
+            </div>
+        </article>
+    </section>
+
+    <section id="contact">
+        <div class="term">
+            <div class="term-bar">
+                <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                <span class="term-title">pigeon@greg: ~/links</span>
+            </div>
+            <div class="term-body">
+                <p class="cmd"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/contact</span>$ <span class="c">cat ./links.txt</span></p>
+
+                <p class="out comment">// My socials and other links</p>
+                <p class="out"><span class="lbl">DISCORD</span> → <a>myname15what</a></p>
+                <p class="out"><span class="lbl">GITHUB</span> → <a href="https://github.com/PigeonGreg" target="_blank">github.com/PigeonGreg</a></p>
+                <p class="out"><span class="lbl">TELEGRAM</span> → <a href="https://t.me/MN15Whaat" target="_blank">t.me/MN15Whaat</a></p>
+
+                <p class="cmd last"><span class="u">pigeon</span>@<span class="h">greg</span>:<span class="p">~/contact</span>$ <span class="caret"></span></p>
+            </div>
+        </div>
+
+        <footer class="page-foot">
+            <span class="comment">// Made by PigeonGreg with minimal AI help(small questions)</span>
+        </footer>
+    </section>
+
+</main>
+
+</body>
+</html>
